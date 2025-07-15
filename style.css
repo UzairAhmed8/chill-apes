@@ -1,0 +1,243 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+
+.logo{
+    height: 150px
+}
+
+.nav-itmes{
+    display: flex;
+}
+
+.nav-itmes a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 5px 10px;
+    align-self: center;
+}
+
+.nav-itmes a:hover{
+    color: #bfc500;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+}
+
+.img-cover{
+    height: 1500px;
+    width: auto;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    padding-left: 100px;
+}
+
+.text h1{
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: 75px;
+}
+
+.text p{
+    font-size: 25px;
+}
+
+.apes{
+    display: flex;
+}
+
+.apes-img1{
+    display: flex;
+    flex-direction: column;
+}
+
+.apes-img1 img{
+    height: 250px;
+    width: 250px;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.con-1 h1{
+    color: #bfc500;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 55px;
+}
+
+.con-1 h6{
+    padding: 0%;
+    margin: 0%;
+    font-size: 35px;
+}
+
+.con-1 p{
+    font-size: 25px;
+}
+
+.con-2{
+    align-self: flex-end;
+}
+
+.section4{
+    padding: 25px 5px;
+    background: #bfc500;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+.section4 h1{
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 200;
+    align-self: center;
+}
+
+.section4 p{
+    font-size: 18px;
+    align-self: center;
+    font-family: sans-serif;
+}
+
+.section4 button{
+    padding: 25px 35px;
+    border-radius: 18px;
+    border: 1px solid #bfc500;
+    color: #bfc500;
+    background-color: black;
+    font-size: 20px;
+    font-family: fantasy;
+    transition: all ease-in-out 0.3s;
+}
+
+.section4 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.section5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5 h1{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+.section5 p{
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.spcl-txt{
+    color: #bfc500;
+    text-decoration: underline;
+}
+
+.gif-img{
+    height: 400px;
+}
+
+.section6{
+    display: flex;
+    flex-direction: column;
+}
+
+.section6 h1{
+    font-family: sans-serif;
+    font-size: 35px;   
+}
+
+.section6 p{
+    font-size: 23px;
+}
+
+.main-con1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.item{
+    /* background-color: red; */
+    padding: 10px;
+    align-self: center;
+}
+
+.icn{
+    height: 150px;
+    align-self: center;
+}
+
+.item p{
+    font-size: 18px;
+    opacity: 70%;
+    font-family: sans-serif;
+}
+
+.section7{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section7 h1{
+    font-family: sans-serif;
+    font-size: 35px;   
+}
+
+.section7 p{
+    font-size: 23px;
+    font-family: sans-serif;   
+}
+
+.section8{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec8-con2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec8-con2 p{
+    font-size: 25px;
+    color: #bfc500;
+    font-family: fantasy;
+}
+
+.sec8-con2-txt{
+    font-family: sans-serif;
+    color: white;
+    text-decoration: line-through;
+    padding-left: 100px;
+}
+
+#shirt{
+    height: 500px;
+    background-color: #bfc500;
+}
