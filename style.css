@@ -34,6 +34,8 @@ nav{
 .section-1{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    overflow: none;
 }
 
 .img-cover{
